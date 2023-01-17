@@ -1,0 +1,158 @@
+.navbar{
+    padding-top: 30px;
+}
+#title {
+    background-color: palevioletred;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.title1 {
+    margin: 0% 15%;
+    padding: 0% 5%;
+    max-height: 600px;
+}
+.img-1 {
+    transform: rotate(30deg);
+    max-width: 55%;
+    height: auto;
+    margin: 5% 0 0 23%;
+    text-align: center;
+    /* overflow: hidden; */
+    /* position: absolute; */
+    
+    
+}
+.img-2 {
+    overflow: hidden;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.mol {
+    padding: 40px 0;
+}
+h1 {
+    font-size: 60px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    
+}
+.btnnn {
+    margin: 18px 6px;
+}
+.title2 {
+    margin: 20px 0;
+    padding-bottom: 7%;
+}
+.icon1{
+    color: palevioletred;
+    padding-bottom: 7px;
+}
+.icon1:hover {
+    color: pink;
+}
+.it {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+.itt {
+    margin: 8% 10%;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.gg {
+    color: grey;
+}
+@media (max-width: 1230px) {
+    .img-2 {
+        overflow: unset;
+        position: static;
+        display: inline-block
+        
+    }
+    .img-1 {
+        transform: rotate(0deg);
+        margin-right:40%;
+    }
+    #title {
+        text-align: center;
+        align-items: center;
+    }
+    .title1{
+        max-height: none;
+    }
+
+
+}
+
+/* Section 2 */
+#testimonials {
+
+
+    max-height: 600px;
+    background-color: palevioletred;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px;
+}
+#press {
+    background-color: palevioletred;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.press-logo {
+    width: 13%;
+}
+.carousel-item{
+    padding: 5% 20%;
+}
+#pricing {
+    text-align: center;
+    margin: 5% 15%;
+}
+.card {
+    margin: auto;
+    margin-top: 50px;
+    background-color: palevioletred;
+    min-height: 300px;
+    min-width: 240px;
+    padding: 50px 0;
+}
+
+/* last */
+#cta {
+    background-color: palevioletred;
+    text-align: center;
+    padding: 4% 15% 8% 15%;
+}
+.find {
+    color: white;
+    font-size: 60px;
+    padding: 4%;
+}
+#footer {
+    align-items: center;
+    text-align: center;
+    padding: 4% 15% 8% 15%;
+}
+.emoji {
+    color: grey;
+    background-color: white;
+}
+.ppp {
+    padding-top: 1%;
+    color: grey
+}
