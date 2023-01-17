@@ -1,0 +1,46 @@
+body {
+    background-color: aquamarine;
+    color: purple;
+    /* font-family: 'Rubik 80s Fade', cursive; */
+
+}
+hr{
+    border-style: none;
+    height: 0px;
+    width: 85%;
+    border-top: dotted;
+    border-width: 5px;
+    border-color: grey;
+}
+img {
+    border-radius: 30%;
+}
+img:hover {
+    border-radius: 20%;
+}
+
+/* Notes */
+.images {
+    position: relative;
+    top: 10px;
+    display: block;
+    display: inline;
+    display: Inline-Block;
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    position: fixed;
+    float: left;
+}
+.textnexttoimage {
+    clear: left;
+    font-size: 10rem;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+/* px / 16 = rem */
